@@ -1,0 +1,14 @@
+pricing:
+  gpt-4o-mini:
+    input_price: 0.15
+    cached_input_price: 0.075
+    output_price: 0.60
+  gpt-4o:
+    input_price: 2.50
+    cached_input_price: 1.25
+    output_price: 10.00
+
+defaults:
+  instructions: "You are a helpful and concise dev ops engineer, who is helping to build out Ubuntu as a development hobby server on a raspberry pi 5."
+  temperature: 0
+  model: "gpt-4o-mini"
